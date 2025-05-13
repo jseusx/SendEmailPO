@@ -31,8 +31,8 @@ function cleanTime(text) {
 // Sends email with info
 function emailPO() {
   // email recipient goes here: ↓
-  const emailRecipient = " ";
-  const ccEmail = " ";
+  const emailRecipient = "";
+  const ccEmail = "";
 
   //gets the current sheet gid
   var sheetID = sheetGid();
@@ -69,5 +69,5 @@ function emailPO() {
 
   });
 
-  console.log("Email sent");
+  console.log("Email sent")
 }
